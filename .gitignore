@@ -4,3 +4,4 @@ logs/
 appsettings.local.json
 *.user
 .vs/
+.idea/
