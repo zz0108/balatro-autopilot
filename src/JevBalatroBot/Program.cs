@@ -29,7 +29,7 @@ try
     var result = await runner.RunAsync(options.NewRun, CancellationToken.None);
     Console.WriteLine($"[RESULT] {result.Result}: {result.Detail}");
     Console.WriteLine($"Run: {result.RunId}; decisions: {result.TotalDecisions}; model: {result.JevDecisions}; fallback: {result.FallbackDecisions}");
-    return result.Result is JevBalatroBot.Core.Decisions.RunOutcome.Win or JevBalatroBot.Core.Decisions.RunOutcome.Loss ? 0 : 1;
+    return result.Result is RunOutcome.Win or RunOutcome.Loss ? 0 : 1;
 }
 catch (Exception exception)
 {

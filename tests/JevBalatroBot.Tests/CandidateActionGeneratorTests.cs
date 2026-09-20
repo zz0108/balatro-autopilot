@@ -99,7 +99,7 @@ public sealed class CandidateActionGeneratorTests
         Assert.Contains("Build: MATCH", action.Description, StringComparison.Ordinal);
     }
 
-    private static JevBalatroBot.Core.Game.BlindDecisionState ReadState()
+    private static BlindDecisionState ReadState()
     {
         using var document = JsonDocument.Parse(File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "Fixtures", "small-blind-state.json")));
         return new BalatroStateReducer().Reduce(document.RootElement);
