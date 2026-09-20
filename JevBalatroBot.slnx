@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/JevBalatroBot.Agent/JevBalatroBot.Agent.csproj" />
+    <Project Path="src/JevBalatroBot.Balatro/JevBalatroBot.Balatro.csproj" />
+    <Project Path="src/JevBalatroBot.Core/JevBalatroBot.Core.csproj" />
+    <Project Path="src/JevBalatroBot.Jev/JevBalatroBot.Jev.csproj" />
+    <Project Path="src/JevBalatroBot/JevBalatroBot.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/JevBalatroBot.Tests/JevBalatroBot.Tests.csproj" />
+  </Folder>
+</Solution>

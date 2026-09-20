@@ -1,0 +1,33 @@
+{
+  "state": "SELECTING_HAND",
+  "ante_num": 1,
+  "money": 4,
+  "round": { "hands_left": 4, "discards_left": 3, "chips": 120 },
+  "blinds": {
+    "small": { "type": "SMALL", "status": "CURRENT", "name": "Small Blind", "effect": "", "score": 300 },
+    "big": { "type": "BIG", "status": "UPCOMING", "name": "Big Blind", "effect": "", "score": 450 },
+    "boss": { "type": "BOSS", "status": "UPCOMING", "name": "The Manacle", "effect": "-1 Hand Size", "score": 600 }
+  },
+  "hand": {
+    "count": 8,
+    "limit": 8,
+    "highlighted_limit": 5,
+    "cards": [
+      { "id": 11, "label": "Ace of Hearts", "value": { "rank": "A", "suit": "H", "effect": "" }, "modifier": { "seal": null, "edition": null, "enhancement": null }, "state": { "debuff": false, "hidden": false } },
+      { "id": 12, "label": "King of Hearts", "value": { "rank": "K", "suit": "H", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } },
+      { "id": 13, "label": "Queen of Hearts", "value": { "rank": "Q", "suit": "H", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } },
+      { "id": 14, "label": "Jack of Hearts", "value": { "rank": "J", "suit": "H", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } },
+      { "id": 15, "label": "Ten of Hearts", "value": { "rank": "T", "suit": "H", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } },
+      { "id": 16, "label": "Two of Clubs", "value": { "rank": "2", "suit": "C", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } },
+      { "id": 17, "label": "Two of Diamonds", "value": { "rank": "2", "suit": "D", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } },
+      { "id": 18, "label": "Seven of Spades", "value": { "rank": "7", "suit": "S", "effect": "" }, "modifier": {}, "state": { "debuff": false, "hidden": false } }
+    ]
+  },
+  "jokers": { "count": 1, "limit": 5, "cards": [ { "id": 21, "label": "Joker", "value": { "effect": "+4 Mult" }, "modifier": { "edition": null } } ] },
+  "consumables": { "count": 0, "limit": 2, "cards": [] },
+  "hands": {
+    "High Card": { "level": 1, "chips": 5, "mult": 1 },
+    "Pair": { "level": 1, "chips": 10, "mult": 2 },
+    "Straight Flush": { "level": 1, "chips": 100, "mult": 8 }
+  }
+}

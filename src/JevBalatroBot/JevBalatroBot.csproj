@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\JevBalatroBot.Core\JevBalatroBot.Core.csproj" />
+    <ProjectReference Include="..\JevBalatroBot.Balatro\JevBalatroBot.Balatro.csproj" />
+    <ProjectReference Include="..\JevBalatroBot.Jev\JevBalatroBot.Jev.csproj" />
+    <ProjectReference Include="..\JevBalatroBot.Agent\JevBalatroBot.Agent.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="appsettings.local.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
